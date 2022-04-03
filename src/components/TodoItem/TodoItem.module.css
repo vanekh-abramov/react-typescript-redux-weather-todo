@@ -1,0 +1,14 @@
+.todoItem {
+  position: relative;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.cross {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+}

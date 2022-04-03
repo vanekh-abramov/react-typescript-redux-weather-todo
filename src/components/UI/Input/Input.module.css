@@ -1,0 +1,10 @@
+.input {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: 0;
+}
+
+.error {
+  border-bottom: 1px solid red;
+}
