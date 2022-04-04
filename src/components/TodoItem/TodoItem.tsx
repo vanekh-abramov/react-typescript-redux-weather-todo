@@ -36,7 +36,7 @@ const TodoItem: FC<TodoItemProps> = ({ id, body, index }) => {
           <img src={`${WEATHER_IMG}/${weather.icon}.png`} alt={weather.main} />
           <div>{weather.main}</div>
           {todos[index].date}
-          <div>{degreesToCelsius(main.temp)}</div>
+          <div>{`${degreesToCelsius(main.temp)} °Celsius`}</div>
         </div>
       </div>
     </>

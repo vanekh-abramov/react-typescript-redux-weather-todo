@@ -3,20 +3,13 @@
   padding: 0;
   font-size: 16px;
   font-family: 'BIZ UDPMincho', serif;
+  line-height: 1.5rem;
 }
 
 ::-webkit-scrollbar {
   width: .5rem;
   height: 100%;
 }
-
-/* ::-webkit-scrollbar-button {
-  display: none;
-} */
-
-/* ::-webkit-scrollbar-track {
-  background-color: rgb(164, 219, 164);
-} */
 
 ::-webkit-scrollbar-track-piece {
   background-color: #ffba08;
@@ -28,12 +21,3 @@
   background-color: #6a040f;
   border-radius: 10px;
 }
-
-/* ::-webkit-scrollbar-corner {
-  background-color: #999;
-} */
-
-
-/* ::-webkit-resizer {
-  background-color: #666;
-} */
