@@ -1,14 +1,14 @@
 export interface IWeather {
-  main: IMain
-  weather: IWeatherInfo[]
+  main: IMain;
+  weather: IWeatherInfo[];
 }
 
 interface IMain {
-  temp: number | null
-  humidity: number | null
+  temp: number | null;
+  humidity: number | null;
 }
 
 interface IWeatherInfo {
-  icon: string
-  main: string
+  icon: string;
+  main: string;
 }

@@ -1,9 +1,18 @@
 .todoItem {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 10px;
   margin-bottom: 5px;
-  border: 1px solid black;
+  border: 1px solid #370617;
   border-radius: 5px;
+  color: #370617;
+}
+
+.todo_title {
+  width: 50%;
+  word-break: break-all;
 }
 
 .cross {

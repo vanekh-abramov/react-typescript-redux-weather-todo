@@ -1,3 +1,30 @@
+.textfield_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  border-top: 1px solid #370617;
+  border-radius: 10px;
+}
+
+.textfield_wrapper::after {
+  content: '';
+  position: absolute;
+  border-radius: 10px;
+  top: -1px;
+  width: 100%;
+  height: 30%;
+  box-shadow: 0px 19px 16px -10px rgb(0 0 0 / 70%);
+  transform: rotate(180deg);
+  pointer-events: none;
+}
+
+.textfield_title {
+  margin: 0 0 0 5%;
+  font-size: 1.5rem;
+  font-family: 'Rubik Puddles', cursive;
+}
+
 .error {
   color: red;
 }

@@ -1,8 +1,12 @@
 .input {
-  width: 100%;
+  padding: 3%;
+  font-size: 2rem;
+  height: 3rem;
   border: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #370617;
   outline: 0;
+  flex: 0 0 auto;
+  background-color: #faa307;
 }
 
 .error {

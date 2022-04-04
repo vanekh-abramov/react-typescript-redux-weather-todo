@@ -1,10 +1,10 @@
-import { ITodo } from './ITodo'
+import { ITodo } from "./ITodo";
 
 export interface TodoState {
-  todos: ITodo[]
+  todos: ITodo[];
 }
 
 export interface TodoAction {
-  type: string
-  payload: string
+  type: string;
+  payload: string;
 }

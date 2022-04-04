@@ -1,4 +1,25 @@
 .container {
-  max-width: 800px;
-  margin: 0 auto;
+  padding: 1%;
+  max-width: 50vw;
+  height: 80vh;
+  margin: 10px auto;
+  display: flex;
+  border-radius: 1%;
+  flex-direction: column;
+  background-color: #faa307;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 70vw;
+    height: 90vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 95vw;
+    height: 95vh;
+  }
 }
